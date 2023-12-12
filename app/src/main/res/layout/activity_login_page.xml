@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white_2"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginPage"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Agender"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/green"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Login to your account"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        />
+
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Email"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="20dp"
+        android:background="@drawable/bg_edittext"
+        android:textColor="@color/grey"
+
+        />
+
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:textSize="13sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:padding="20dp"
+        android:background="@drawable/bg_edittext"
+        android:textColor="@color/grey"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Sign in"
+        android:background="@drawable/bg_button"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="13sp"
+        android:paddingVertical="20dp"
+        />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textSize="13sp"
+        android:textAlignment="textEnd"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/grey"
+        />
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Doesn't have an account?"
+    android:textSize="13sp"
+    android:textAlignment="center"
+    android:layout_marginTop="171dp"
+    android:fontFamily="@font/poppins_semibold"
+    android:textColor="@color/grey"
+    />
+
+    <Button
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/bg_button2"
+        android:fontFamily="@font/poppins_semibold"
+        android:paddingVertical="20dp"
+        android:text="Create an account"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+<!--    <Button-->
+<!--        app:icon="@drawable/icons_google"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Google"-->
+<!--        android:textSize="13dp"/>-->
+
+</LinearLayout>
+</ScrollView>
